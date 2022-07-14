@@ -3,6 +3,13 @@ import numpy
 import itertools
 
 def plot_confusion_matrix(cm, classes,title='Confusion matrix',cmap=plt.cm.Blues):
+  
+    '''
+  Cette fonction permet de génerer un tableau de confusion avec les caractéristiques souhaitées
+  '''
+
+  
+  
   plt.imshow(cm, interpolation='nearest', cmap=cmap)
   plt.title(title)
   plt.colorbar()
